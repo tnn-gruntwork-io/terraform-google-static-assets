@@ -2,8 +2,8 @@
 
 This Terraform Module deploys a [HTTP Load Balancer](https://cloud.google.com/load-balancing/docs/https/) that routes 
 requests to a [Google Cloud Storage](https://cloud.google.com/storage/) bucket for static content hosting. Internally the 
-module uses the [terraform-google-load-balancer](https://github.com/gruntwork-io/terraform-google-load-balancer) 
-[http-load-balancer](https://github.com/gruntwork-io/terraform-google-load-balancer/tree/master/modules/http-load-balancer) -module.
+module uses the [terraform-google-load-balancer](https://github.com/tnn-gruntwork-io/terraform-google-load-balancer) 
+[http-load-balancer](https://github.com/tnn-gruntwork-io/terraform-google-load-balancer/tree/master/modules/http-load-balancer) -module.
 
 Some benefits of serving your static assets, like images or JavaScript files, with a Cloud Load Balancer include:
 
@@ -15,8 +15,8 @@ application and content delivery
 
 ## Quick Start
 
-* See the [http-load-balancer-website example](https://github.com/gruntwork-io/terraform-google-static-assets/tree/master/examples/http-load-balancer-website) for working sample code.
-* Check out [variables.tf](https://github.com/gruntwork-io/terraform-google-static-assets/blob/master/modules/http-load-balancer-website/variables.tf) for all parameters you can set for this module.
+* See the [http-load-balancer-website example](https://github.com/tnn-gruntwork-io/terraform-google-static-assets/tree/master/examples/http-load-balancer-website) for working sample code.
+* Check out [variables.tf](https://github.com/tnn-gruntwork-io/terraform-google-static-assets/blob/master/modules/http-load-balancer-website/variables.tf) for all parameters you can set for this module.
 
 
 ## How do I test my website?
